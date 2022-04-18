@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="comando.css"> 
+  <title>Comandos Git</title>
+</head>
+<body>
+  <header class="cabecalho">
+    <img src="./img/eudesenho.png" alt="Foto da Mayara">
+    <nav class="cabecalho-menu">
+      <a class="cabecalho-menu-item"  href="index.html">Home</a>
+      <a  class="cabecalho-menu-item" href="https://git-scm.com/download/win">GiT Download</a>
+      <a class="cabecalho-menu-item" href="tutoriaial.html">Tutorial</a>
+    </nav>
+  </header>
+  <main class="conteudo">
+    <section>
+      <br><br>
+      <h1>Ajuda</h1>
+      <br><br>
+      <p>Geral</p>
+      <div class="comandos"> git help</div>
+      <br><br>
+      <p>Comando específico</p>
+      <br>
+      <div class="comandos">git help add<br>git help commit<br>git help <qualquer_comando_git></qualquer_comando_git></div>
+      <br><br>
+      <h1>Configurações em geral</h1>
+      <br><br>
+      <p>Cadastrar usuário</p>
+      <br>
+      <div class="comandos"> git config --global user.name "Seu-nome" <br> git config --global user.email seuemail@dominio.com.br</div>
+      <br>
+      <br>
+      <p>Remover usuário</p>
+      <div class="comandos"> git config --global --unset user.name "Seu-nome" <br> git config --global --unset user.email email@dominio.com</div>
+      <br>
+      <p>Setar editor</p>
+      <div class="comandos"> git config --global core.editor vim </div>
+      <br>
+      <p>Setar ferramenta de merge</p>
+      <div class="comandos"> git config --global merge.tool vimdiff </div>
+      <br>
+      <p>Lista configurações</p>
+      <div class="comandos"> git config --list </div>
+      <br><br>
+      <h1>Repositório Local</h1>
+      <br><br>
+      <p>Criar novo repositório</p>
+      <div class="comandos"> git init </div>
+      <br>
+      <p>Verificar estado dos arquivos/diretórios</p>
+      <div class="comandos"> git status </div>
+      <br>
+      <p>Adicionar um arquivo específico</p>
+      <div class="comandos"> git add meu_arquivo.txt </div>
+      <br>
+      <p>Adicionar um diretório específico</p>
+      <div class="comandos"> git add meu_diretorio </div>
+      <br>
+      <p>Adicionar todos os arquivos/diretórios</p>
+      <div class="comandos"> git add . </div>
+      <br>
+      <p>Adicionar um arquivo que esta listado no .gitignore (geral ou do repositório)</p>
+      <div class="comandos"> git add -f arquivo_no_gitignore.txt </div>
+      <br><br>
+      <h1>Comitar arquivo/diretório</h1>
+      <br><br>
+      <p>Comitar um arquivo</p>
+      <div class="comandos"> git commit meu_arquivo.txt </div>
+      <br>
+      <p>Comitar vários arquivos</p>
+      <div class="comandos"> git commit meu_arquivo.txt meu_outro_arquivo.txt </div>
+      <br>
+      <p>Comitar com mensagem</p>
+      <div class="comandos"> git commit -m "Minha informação do commit" </div>
+      <br><br>
+      <h1>Remover</h1>
+      <br><br>
+      <p>Remover arquivo</p>
+      <div class="comandos"> git rm meu_arquivo.txt </div>
+      <br>
+      <div class="comandos"> git rm -r diretorio</div>
+      <br><br>
+      <h1>Visualizar histórico</h1>
+      <br><br>
+      <p>Exibir histórico</p>
+      <div class="comandos"> git log </div>
+      <br>
+      <p>Exibir histórico de um arquivo específico</p>
+      <div class="comandos"> git log -- <caminho_do_arquivo></div>
+      <br>
+      <p>Exibir histórico de determinado autor</p>
+      <div class="comandos"> git log --author=usuario</div>
+      <br><br>
+      <h1>Repositório Remoto</h1>
+      <br><br>
+      <p>Exibir os repositórios remotos</p>
+      <div class="comandos"> git remote <br> git remote -v </div>
+      <br>
+      <br><br>
+      <h1>Enviar arquivos/diretórios para o repositório remoto</h1>
+      <br><br>
+      <p>O primeiro push de um repositorio deve conter p nome da branch</p>
+      <div class="comandos"> git push u- origin nomedabranch </div>
+      <br>
+      <p>Os demais pushes não precisam dessa informação</p>
+      <div class="comandos"> git push</div>
+      <br><br>
+      <h1>Branch</h1>
+      <br><br>
+      <p>Criar uma nova Branch</p>
+      <div class="comandos"> git checkout -b nomedabranch</div>
+      <br>
+      <p>Unifica branch criada com a branch principal</p>
+      <div class="comandos"> git merge nomedabranch</div>
+      <br>
+      <p>vai para a branch vo qual está identificada no comando</p>
+      <div class="comandos"> git checkout nomedabranch</div>
+      <br><br>
+      <h1>Atualizar repositório local de acordo com o repositório remoto</h1>
+      <br><br>
+      <p>Atualizar os arquivos no branch atual</p>
+      <div class="comandos">git pull</div>
+      <br>
+      <p>Buscar as alterações, mas não aplica-las no branch atual</p>
+      <div class="comandos"> git fetch</div>
+    
+    
+    </section>
+  </main>
+  <footer class="rodape">
+    <img class="rodape-imagem" src="">
+  </footer>
+</body>
+</html>
