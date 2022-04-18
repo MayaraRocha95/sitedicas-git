@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="tutorial.css"> 
+  <title>tutorial</title>
+</head>
+<body>
+  <header class="cabecalho">
+    <img src="./img/eudesenho.png" alt="Foto da Mayara">
+    <nav class="cabecalho-menu">
+      <a class="cabecalho-menu-item"  href="index.html">Home</a>
+      <a  class="cabecalho-menu-item" href="https://git-scm.com/download/win">GiT Download</a>
+    
+      <a class="cabecalho-menu-item" href="comandos.html">Comandos</a>
+    </nav>
+  </header>
+  <main class="conteudo">
+    <section>
+      <div class="conteudo-principal">
+        <p> Por onde começar</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/za5KWZ5pRag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <br><br>
+       <p>O que é o Git</p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/DqTITcMq68k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <br><br>
+      <p>Entendendo o Git</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6Czd1Yetaac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div>
+        <section class="conteudo-secundario">
+          <h1 class="conteudo-secundario-titulo">Perguntas Frequentes:</h1>
+          <br><br>
+          <h2 class="conteudo-secundario-pergunta">O que significa um repositório no Git?</h2>
+          <br>
+          <p> É uma área onde o Git conserva todos os documentos. Git tem a capacidade de manter documentos remotos junto com o banco de dados regional. </p>
+          <br>
+          <h2 class="conteudo-secundario-pergunta">Como usar o Git?</h2>
+          <br>
+            <p> Você vai usar o Git para guardar o versionamento de todo seu sistema, de maneira segura e distribuída. Deve sempre fazer pequenos commits e 'pushar' suas modificações em grupos que fazem sentido. Do outro lado, deve fazer os 'pulls' para sincronizar com as modificações de todo time. O Git é uma ferramenta, você vai precisar de um servidor principal (mesmo ele sendo distribuído) para facilitar seu trabalho. É aí que entra o Github como sendo uma das opções já prontas.</p>
+          <br>
+          <h2 class="conteudo-secundario-pergunta">O que é um git commit?</h2>
+          <br>
+          <p>Cada commit registra um momento de vida do seu projeto. É uma foto (snapshot) daquele instante dos arquivos. Com isso você consegue se referenciar àquele momento do projeto, podendo voltar a ele, analisá-lo, ver as diferenças com um outro momento. Não se esqueça que os commits são feitos no seu repositório local e você precisa 'pushar' (empurrá-los) de volta para a origem, para que outras pessoas tenham acesso a essas fotos e atualizem-se no tempo de vida.</p>
+          <br>
+          <h2 class="conteudo-secundario-pergunta">Qual a diferença entre o Git é o GitHub??</h2>
+          <br>
+          <p> Git é a ferramenta que Linus criou. Se você quer utilizá-la, pode fazer tudo sozinho e hospedar um repositório principal para ter seu software versionado. Isso pode ser uma tarefa complicada. Algumas empresas, como Github, Bitbucket e Gitlab, já oferecem esse serviço, controlam o acesso dos usuários e oferecem ferramentas extras de gerenciamento de projetos. O Github é uma opção para que você use o Git de maneira mais simples, mas não é obrigatório, apesar de extremamente usado.</p>
+          <br>
+          <h2 class="conteudo-secundario-pergunta">Para que o 'Git CONFIG' é usado?</h2>
+          <br>
+          <p>O comando git config pode ser usado para configurar a maioria das opções necessárias ao se usar o Git. Quer se tratar de informações de usuário ou a maneira que o repositório funciona, ele torna-se um método muito conveniente de configuração.</p>
+          <br>
+          <h2 class="conteudo-secundario-pergunta">Os commits quebrados podem ser corrigidos?</h2>
+          <br>
+          <p> Sim, eles podem. A maneira que você faria para consertar um commit quebrado é emitindo o comando git commit -amend. Este comando encontrará o commit quebrado e restaurará sua funcionalidade, removendo a mensagem de erro no processo.</p>
+          <br>
+          <h2 class="conteudo-secundario-pergunta">Qual é a maneira mais eficiente de encontrar um commit errado?</h2>
+          <br>
+          <p> Embora você possa passar por todos os commits enquanto tenta encontrar o que está causando problemas, ninguém faz isso. Isso porque existe um comando que permite classificar os commits de maneira rápida e fácil, tornando o processo de busca muito mais rápido e fluido.
+            <br><strong>  O comando é git bisect.</strong></p>
+            <br>
+            <h2 class="conteudo-secundario-pergunta">Qual linguagem é utilizada no Git?</h2>
+            <br>
+            <p> A linguagem que o Git utiliza é a linguagem 'C', já que a taxa de que o GIT precisa pode ser satisfeita pela linguagem 'C', pois ela diminui os tempos de execução, ao contrário de várias outras linguagens de nível superior. </p>
+        </section>
+      </div>
+  </section>
+  </main>
+  <footer class="rodape">
+    <img class="rodape-imagem" src="">
+  </footer>
+
+</body>
+</html>
