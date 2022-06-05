@@ -1,7 +1,7 @@
 ### Site Dicas sobre o Git
  Projeto meu primeiro site, com dicas para usar o Git e por onde começar.
 
-**Entre e confira:** [Dicas para o Git](https://app.netlify.com/sites/site-dicas-git/deploys)
+**Entre e confira:** [Dicas para o Git](https://site-dicas-git.netlify.app/)
 
 ## Home![pagina1](img/home.png)
 ## Tutorial![pagina2](img/tutorial.png)
