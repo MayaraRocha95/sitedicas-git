@@ -7,3 +7,9 @@
 ## Tutorial![pagina2](img/tutorial.png)
 ##  Tutorial-Perguntas Frequentes![pagina2](img/turorial2.png)
 ## Comandos![pagina2](img/comandos.png)
+
+## ✔️ Tecnologias utilizadas
+
+- ``HTML``
+- ``CSS``
+- ``JavaScript``
