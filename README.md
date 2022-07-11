@@ -3,7 +3,7 @@
 
 **Entre e confira:** [Dicas para o Git](https://app.netlify.com/sites/site-dicas-git/deploys)
 
-![Previo](img/sitedicasgit.gif) 
+![Previo](img/dicasgit.gif) 
 
 
 ## Home![pagina1](img/home.png)
